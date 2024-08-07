@@ -1,17 +1,9 @@
-import { BenefitType, SelectedPage } from "@/shared/types"
+import {SelectedPage}  from "@/shared/types"
 import { motion } from "framer-motion"
 import HText from "@/shared/HText"
 import BenefitsPageGraphic from "@/assets/JuaniA.webp"
 import MircoV from "@/assets/MircoV.webp"
-import ActionButton from "@/shared/ActionButton"
 
-
-const container ={
-     hidden: {},
-     visible: {
-        transition: {staggerChildren: 0.2}
-     }
-}
 type Props = {
     setSelectedPage: (value: SelectedPage) => void
 }
