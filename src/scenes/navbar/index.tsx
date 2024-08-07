@@ -83,22 +83,34 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                         <Link 
                         page="Inicio" 
                         selectedPage={selectedPage}
-                        setSelectedPage={setSelectedPage}
+                        setSelectedPage={(page) => {
+                            setSelectedPage(page);
+                            setIsMenuToggled(false);
+                        }}
                         />
                         <Link 
                         page="Profesionales"
                         selectedPage={selectedPage}
-                        setSelectedPage={setSelectedPage}
+                        setSelectedPage={(page) => {
+                            setSelectedPage(page);
+                            setIsMenuToggled(false);
+                        }}
                         />
                         <Link 
                         page="Beneficios"
                         selectedPage={selectedPage}
-                        setSelectedPage={setSelectedPage}
+                        setSelectedPage={(page) => {
+                            setSelectedPage(page);
+                            setIsMenuToggled(false);
+                        }}
                         />
                         <Link 
                         page="Contacto"
                         selectedPage={selectedPage}
-                        setSelectedPage={setSelectedPage}
+                        setSelectedPage={(page) => {
+                            setSelectedPage(page);
+                            setIsMenuToggled(false);
+                        }}
                         />
                 </div>
             </div>
