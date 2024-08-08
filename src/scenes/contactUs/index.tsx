@@ -68,7 +68,7 @@ const onSubmit = async (e:any) => {
                 <form
                 target="_blank"
                 onSubmit={onSubmit}
-                action="https://formsubmit.co/your@email.com"
+                action="https://formsubmit.co/909df49a707bf7e3c7759a8198556c03"
                 method="POST"
                 >
                   <input 
